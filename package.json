@@ -1,0 +1,26 @@
+{
+  "name": "styling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "start": "npm run serve & npx gulp dev",
+    "build": "npx gulp build --release",
+    "serve": "http-server ./public -p 9000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
