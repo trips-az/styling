@@ -1,0 +1,65 @@
+$primary: #009299;
+$secondary: #254659;
+
+@import "../common";
+
+.nemo-flights-form:before {
+  background-image: url("img/bg.jpg");
+}
+
+.spd-header__logo {
+  background: url("img/logo.png") center center no-repeat;
+  width: 57px;
+  height: 50px;
+  background-size: 57px 50px;
+  margin-top: -5px;
+}
+
+.spd-footer__info {
+  padding: 70px 0 20px;
+}
+
+.spd-footer__info:before {
+  background: url("img/logo_gray.png") no-repeat;
+  width: 57px;
+  height: 50px;
+  background-size: 57px 50px;
+  margin-left: -28px;
+  margin-top: -5px;
+}
+
+.spd-common-flightsResults .spd-header__logo,
+.spd-header_dark .spd-header__logo {
+  background: url("img/logo_white.png") center center no-repeat;
+  width: 57px;
+  height: 50px;
+  background-size: 57px 50px;
+}
+
+.spd-cms-promo__item:after {
+  background-image: url("img/sprite.svg");
+}
+
+.nemo-common-pageWrapper {
+  padding-bottom: 222px;
+}
+
+.spd-footer {
+  height: 222px;
+  margin-top: -222px !important;
+}
+
+.pro-wrapper {
+  padding-bottom: 105px;
+}
+
+@media (max-width: 770px) {
+  .pro-wrapper {
+    padding-bottom: 0;
+  }
+
+  .spd-footer {
+    margin-top: 0 !important;
+    height: auto;
+  }
+}
