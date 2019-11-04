@@ -1,0 +1,168 @@
+$primary: #e81935;
+$secondary: #232b38;
+
+@import "../common";
+
+.nemo-flights-form:before {
+  background-image: url("img/bg.jpg");
+}
+
+
+.spd-header__logo {
+  background: url("img/logo.svg") center center no-repeat;
+}
+
+.spd-footer__info {
+  padding: 70px 0 20px;
+}
+
+.spd-footer__info:before {
+  background: url("img/logo.svg") no-repeat;
+  margin-left: -60px;
+}
+
+.spd-common-flightsResults .spd-header__logo,
+.spd-header_dark .spd-header__logo {
+  background: url("img/logo.svg") center center no-repeat;
+}
+
+.spd-header__logo,
+.spd-footer__info::before,
+.spd-common-flightsResults .spd-header__logo,
+.spd-header_dark .spd-header__logo {
+  width: 120px;
+  height: 30px;
+  background-size: 120px 30px;
+}
+
+.spd-cms-promo__item:after,
+.spd-footer__copyrights__item__inner:after,
+.spd-footer__copyrights__item__inner:before {
+  background-image: url("img/sprite.svg");
+}
+
+.spd-cms-promo__item_price:after {
+  background: url("img/timetable.svg") no-repeat;
+  width: 44px;
+  height: 44px;
+  top: 0;
+}
+
+
+.spd-cms-promo__item_baggage:after {
+  background: url("img/worldwide.svg") no-repeat;
+  width: 52px;
+  height: 52px;
+  margin-left: -30px;
+  top: -4px;
+}
+
+.nemo-common-pageWrapper {
+  padding-bottom: 222px;
+}
+
+.spd-footer {
+  height: 222px;
+  margin-top: -222px !important;
+}
+
+.pro-wrapper {
+  padding-bottom: 105px;
+}
+
+.spd-header {
+  background: $secondary;
+  color: #fff;
+}
+
+.spd-header__settings__auth__login, .spd-header__settings__auth__user-name {
+  color: #fff;
+}
+
+.spd-footer {
+  background: darken($secondary, 10%);
+}
+
+.spd-footer__info {
+  background: $secondary;
+}
+
+.spd-footer__container,
+.spd-footer__copyrights__item {
+  color: #fff;
+}
+
+.nemo-ui-select__toggle:after {
+  border-top-color: #fff;
+}
+
+.spd-header__mobileMenu .nemo-ui-select__toggle:after {
+  border-top-color: $secondary;
+}
+
+.spd-flights-form__routeOptions__switch {
+  opacity: 1;
+}
+
+.spd-header .nemo-ui-select__dropdown__item {
+  color: $secondary;
+}
+
+.nemo-common-mobileControl__sideblock__user {
+  margin-top: 60px;
+}
+
+.nemo-common-mobileControl .spd-header__supportPhones__phone {
+  line-height: 1;
+}
+
+@media (max-width: 770px) {
+  .pro-wrapper {
+    padding-bottom: 0;
+  }
+
+  .spd-footer {
+    margin-top: 0 !important;
+    height: auto;
+  }
+
+  .spd-header {
+    height: 60px;
+  }
+
+  .spd-header__inner,
+  .spd-header_inControl {
+    display: flex;
+    align-items: center;
+  }
+
+  .spd-header__logo {
+    flex-shrink: 0;
+  }
+
+  .spd-header__inner {
+    padding: 0 10px;
+  }
+
+  .spd-common-flightsResults .spd-header__inner {
+    padding: 0;
+  }
+
+  .nemo-flights-results__summary__route__segment__geo,
+  .nemo-flights-results__summary__route__segment__geo__aux {
+    color: white;
+  }
+}
+
+@media (max-width: 570px) {
+  .nemo-flights-form:before {
+    opacity: 1;
+    background-image: url("img/bg-mobile.jpg");
+  }
+
+  .spd-flights-form__routeOptions__lastSearches,
+  .spd-flights-form__routeOptions__multiDate,
+  .spd-flights-form__routeOptions__switch {
+    background: $secondary;
+  }
+}
