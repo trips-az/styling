@@ -1,0 +1,74 @@
+@import "../common";
+
+.nemo-flights-form:before {
+  background-image: url("img/bg.jpg");
+}
+
+.spd-header__logo {
+  background: url("img/logo.svg") center center no-repeat;
+  width: 115px;
+  height: 40px;
+  background-size: 115px 40px;
+}
+
+.spd-footer__info {
+  padding: 70px 0 20px;
+}
+
+.spd-footer__info:before {
+  background: url("img/logo_gray.svg") no-repeat;
+  width: 115px;
+  height: 40px;
+  background-size: 115px 40px;
+  margin-left: -57.5px;
+}
+
+.spd-common-flightsResults .spd-header__logo {
+  background: url("img/logo_white.svg") center center no-repeat;
+  background-size: 115px 40px;
+  width: 115px;
+  height: 40px;
+}
+
+.spd-cms-promo__item:after {
+  background-image: url("img/sprite.svg");
+}
+
+.spd-cms-promo__item_price:after {
+  background: url("img/hotel.svg") no-repeat;
+  width: 44px;
+  height: 44px;
+  top: 0;
+}
+
+.spd-cms-promo__item_baggage:after {
+  background: url("img/send.svg") no-repeat;
+  width: 52px;
+  height: 52px;
+  margin-left: -30px;
+  top: 0;
+}
+
+.nemo-common-pageWrapper {
+  padding-bottom: 222px;
+}
+
+.spd-footer {
+  height: 222px;
+  margin-top: -222px !important;
+}
+
+.pro-wrapper {
+  padding-bottom: 105px;
+}
+
+@media (max-width: 770px) {
+  .pro-wrapper {
+    padding-bottom: 0;
+  }
+
+  .spd-footer {
+    margin-top: 0;
+    height: auto;
+  }
+}
