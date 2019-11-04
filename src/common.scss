@@ -1,0 +1,402 @@
+// other
+.spd-header__components,
+.spd-header__mobileMenu__components {
+  display: none;
+}
+
+.spd-cms-offers,
+.spd-cms-appLoad {
+  display: none;
+}
+
+.spd-header__mobileMenu__components__item_avia,
+.spd-header__mobileMenu__components__item_hotels {
+  /*display: none;*/
+}
+
+.nemo-auth__forgotpasslink,
+.nemo-auth__rememberedpassslink {
+  padding-right: 10px;
+}
+
+/* ============ NEMO ============ */
+
+.nemo-ui-button,
+.nemo-ui-button:focus,
+.new-ui-button,
+.new-ui-button:focus,
+.nemo-pmu-date_returndate.nemo-pmu-date_hilighted_1:after {
+  background: $primary;
+}
+
+.spd-flights-results__resultsHeader__compareTableOpener:after,
+.spd-flights-results__resultsHeader__viewChanger__displayTypeSelector__option__button:before,
+.spd-bookinfo-breadCrumbs__inner__items a:before,
+.nemo-ui-checkbox__input:checked + .nemo-ui-checkbox__caption::before,
+.new-ui-checkbox__input:checked + .new-ui-checkbox__caption::before,
+.spd-flights-results__group__segment__selector__toggle:after,
+.spd-header__settings__auth:before {
+  background-image: url("img/sprite.svg");
+}
+
+
+.nemo-flights-results__summary__route__segment__date,
+.spd-flights-results__group__segment__selector__toggle__time_nextDay,
+.spd-flights-results__group__segment__seatsAvail_warning,
+.nemo-common-postFilters__filterList__filter__valuesBlock__values__value_checked .nemo-common-postFilters__filterList__filter__valuesBlock__values__value__name,
+.nemo-ui-slider__info,
+.new-ui-slider__info,
+.nemo-ui-autocomplete__match, .new-ui-autocomplete__match {
+  color: $primary;
+}
+
+.spd-flights-results__group__buttons__details, .spd-flights-results__group__header__details {
+  background: #f4f4f4;
+}
+
+.spd-flights-results__resultsHeader__viewChanger__displayTypeSelector__option__button_active {
+  border-bottom-color: $primary;
+}
+
+.ui-dialog-titlebar_progress:before,
+.spd-bookinfo__inner__stimulus,
+.nemo-flights-flightInfo__buyButton_bookingCheck:before,
+.nemo-flights-results__compareTable__groupsItem__buyButton_bookingCheck:before,
+.spd-flights-results__group__buttons__buy_bookingCheck:before,
+.spd-flights-results__group__header__buy_bookingCheck:before {
+  background-color: $primary;
+}
+
+.nemo-pmu-date_returndate.nemo-pmu-date_hilighted_1:before {
+  border-left-color: $primary;
+  border-right-color: $primary;
+}
+
+.nemo-flights-results__flightsGroup__nightDeparture {
+  color: $primary !important;
+}
+
+.nemo-checkout-fare-features .nemo-flights-results__fareFamilies__header,
+nemo-checkout-fare-features .nemo-flights-results__fareFamilies__header:hover,
+.nemo-flights-results__fareFamilies__features__wrapper {
+  background-color: #fff;
+}
+
+.nemo-ui-button:active,
+.nemo-ui-button:focus:hover,
+.nemo-ui-button:hover, .new-ui-button:active,
+.new-ui-button:focus:hover, .new-ui-button:hover {
+  background: lighten($primary, 5%);
+}
+
+.nemo-ui-stateGroup__label__input:checked + .spd-flights-form__classSelect__label__button {
+  background: $secondary !important;
+}
+
+.nemo-ui-stateGroup__label__button:active, .nemo-ui-stateGroup__label__button:focus:hover, .nemo-ui-stateGroup__label__button:hover, .new-ui-stateGroup__label__button:active, .new-ui-stateGroup__label__button:focus:hover, .new-ui-stateGroup__label__button:hover {
+  background: rgba($secondary, 0.6);
+}
+
+.nemo-pmu-date_period {
+  background: lighten($secondary, 65%);
+}
+
+.nemo-pmu-saturday, .nemo-pmu-sunday {
+  color: lighten($secondary, 20%);
+}
+
+.nemo-pmu-days_day:hover, .nemo-pmu-today:hover {
+  background: lighten($secondary, 65%);
+}
+
+.nemo-pmu-today:before {
+  border-color: lighten($secondary, 50%);
+}
+
+.nemo-pmu-date_hilighted {
+  color: #ffffff;
+}
+
+.nemo-pmu-date_hilighted:before {
+  border-left: 8px solid $secondary;
+}
+
+.nemo-pmu-date_hilighted:after {
+  background-color: $secondary;
+}
+
+.nemo-flights-results__summary {
+  background: $secondary;
+}
+
+.nemo-flights-results__summary__route__segment__geo, .nemo-flights-results__summary__route__segment__geo__aux {
+  color: $secondary;
+}
+
+.nemo-flights-form {
+  background: $secondary;
+}
+
+.nemo-common-postFilters__filterList__filter__caption__name {
+  background: rgba($secondary, 0.85);
+}
+
+.nemo-common-postFilters__filterList__filter__partSelector__part:hover, .nemo-common-postFilters__filterList__filter__partSelector__part_selected {
+  background: rgba($secondary, 0.55);
+}
+
+.nemo-common-postFilters__filterList__filter__valuesBlock__values__value:hover, .nemo-common-postFilters__filterList__filter__valuesBlock__values__value_checked {
+  background: rgba($secondary, 0.12);
+}
+
+.spd-flights-results__sort__item_active .spd-flights-results__sort__item__inner {
+  background: rgba($secondary, 0.85);
+}
+
+.spd-flights-results__sort__item__inner:hover {
+  background: rgba($secondary, 0.85);
+}
+
+.nemo-flights-results__compareTable__root {
+  background: rgba($secondary, 0.1);
+}
+
+.nemo-flights-results__compareTable__pager {
+  background: $secondary;
+}
+
+.nemo-flights-results__compareTable__showMore__switch {
+  background: rgba($secondary, 0.12);
+}
+
+.nemo-flights-results__compareTable__showMore__switch:active, .nemo-flights-results__compareTable__showMore__switch:hover, .nemo-flights-results__compareTable__showMore__switch:link, .nemo-flights-results__compareTable__showMore__switch:visited {
+  background: $secondary;
+}
+
+.nemo-flights-flightInfo__leg__route {
+  background: $secondary;
+}
+
+.nemo-flights-flightInfo__leg__route__timeEnRoute {
+  background: darken($secondary, 10%);
+}
+
+.nemo-flights-results__showAll__button {
+  background: rgba($secondary, 0.85) !important;
+}
+
+.spd-common-flightsResults .spd-header {
+  background: $secondary;
+}
+
+.spd-header_dark {
+  background: $secondary;
+}
+
+.spd-bookinfo__inner__info__header {
+  background: $secondary;
+}
+
+.spd-bookinfo__inner__mainContent__passengers__item__container__header,
+.spd-bookinfo__inner__mainContent__buyer__header {
+  background-color: rgba($secondary, 0.17);
+}
+
+.spd-bookinfo__inner__mainContent__extservices__header {
+  background: $secondary;
+}
+
+.spd-bookinfo__inner__mainContent__extservices .new-ui-subContainer__header {
+  background: $secondary;
+}
+
+.ui-dialog-titlebar_progress {
+  background: rgba($secondary, 0.55);
+}
+
+.spd-flights-results__resultsHeader__viewChanger__displayTypeSelector__option__button_active {
+  background: rgba($secondary, 0.12) !important;
+}
+
+.nemo-ui-stateGroup__label__button:hover {
+  background: none;
+}
+
+.spd-flights-results__group__buttons__details:hover {
+  background: rgba($secondary, 0.12) !important;
+}
+
+.nemo-flights-flightInfo__leg__segment__timeEnRoute:after,
+.nemo-flights-results__compareTable__showMore__switch__icon {
+  background-image: url("img/sprite.svg");
+}
+
+.nemo-flights-flightInfo__leg__segment__airport__value,
+.nemo-flights-flightInfo__leg__segment__airport__terminal,
+.nemo-flights-flightInfo__leg__segment__additional__carrier,
+.nemo-flights-flightInfo__leg__segment__additional__aircraft,
+.spd-flights-results__group__segment__selector__toggle__IATA,
+.nemo-flights-results__compareTable__showMore__switch,
+.spd-flights-results__sort__item__inner,
+.spd-flights-results__group__buttons__details,
+.spd-flights-results__group__header__details,
+.nemo-ui-pseudoLink,
+.nemo-ui-pseudoLink:hover,
+.new-ui-pseudoLink,
+.new-ui-pseudoLink:hover,
+.spd-bookinfo__inner__info__flight-summary__leg__point__time,
+.spd-bookinfo__inner__info__pay-info__item__desc {
+  color: $secondary;
+}
+
+.nemo-flights-flightInfo__leg__segment__time_nextDay {
+  color: $primary !important;
+}
+
+.nemo-flights-flightInfo__leg__segment__date_nextDay,
+.nemo-flights-flightInfo__footer__right,
+.nemo-flights-flightInfo__footer__right {
+  color: $primary;
+}
+
+.nemo-flights-form_CR .nemo-flights-form__route__removeCRSegment {
+  background: $primary;
+}
+
+.spd-flights-form__classSelect__label__button:hover {
+  background: rgba($secondary, 0.12);
+  color: #58585a;
+}
+
+.nemo-flights-results__summary__passengers,
+.nemo-flights-form__route__segment__item__dummy,
+.nemo-flights-form__passengers__container,
+.nemo-common-postFilters__filterList__filter__valuesBlock__values__value,
+.nemo-common-postFilters__filterList__filter__partSelector__part,
+.spd-flights-results__group__segment__seatsAvail,
+.spd-flights-results__group__segment__timeEnRoute,
+.spd-flights-results__group__segment__transfers,
+.spd-flights-results__sort__item__price__money {
+  color: #58585a;
+}
+
+.nemo-common-postFilters__filterList__filter__partSelector__part:hover, .nemo-common-postFilters__filterList__filter__partSelector__part_selected {
+  color: #ffffff;
+}
+
+.new-flights-passInfo__notification {
+  max-width: 700px;
+}
+
+
+.nemo-flights-flightInfo__buyButton_bookingCheck,
+.nemo-flights-results__compareTable__groupsItem__buyButton_bookingCheck,
+.spd-flights-results__group__buttons__buy_bookingCheck,
+.spd-flights-results__group__header__buy_bookingCheck {
+  background: rgba($secondary, 0.55) !important;
+}
+
+a.spd-cms-articles__menu__item.active,
+a.spd-cms-articles__menu_privacy__item.active,
+.spd-cms-articles__menu__item:hover,
+.spd-cms-articles__menu_privacy__item:hover {
+  background-color: $primary;
+}
+
+a.spd-cms-articles__menu__item, a.spd-cms-articles__menu_privacy__item {
+  background: rgba($secondary, 0.85);
+}
+
+.spd-cms-contentItemPage__content_top__title {
+  border-bottom-color: $primary;
+}
+
+.nemo-auth__forgotpasslink, .nemo-auth__forgotpasslink:active, .nemo-auth__forgotpasslink:focus, .nemo-auth__forgotpasslink:hover, .nemo-auth__forgotpasslink:link, .nemo-auth__forgotpasslink:link:hover, .nemo-auth__forgotpasslink:visited, .nemo-auth__forgotpasslink:visited:hover, .nemo-auth__registrationLink, .nemo-auth__registrationLink:active, .nemo-auth__registrationLink:focus, .nemo-auth__registrationLink:hover, .nemo-auth__registrationLink:link, .nemo-auth__registrationLink:link:hover, .nemo-auth__registrationLink:visited, .nemo-auth__registrationLink:visited:hover, .nemo-auth__rememberedpassslink, .nemo-auth__rememberedpassslink:active, .nemo-auth__rememberedpassslink:focus, .nemo-auth__rememberedpassslink:hover, .nemo-auth__rememberedpassslink:link, .nemo-auth__rememberedpassslink:link:hover, .nemo-auth__rememberedpassslink:visited, .nemo-auth__rememberedpassslink:visited:hover {
+  color: $secondary;
+}
+
+.nemo-auth_separatePage .nemo-auth__registrationLink {
+  /*margin-left: 10px !important;*/
+}
+
+.spd-cms-articles__categoryContent_answer__title {
+  color: $primary;
+}
+
+a.spd-cms-articles__categoryMenu__item.active,
+.spd-cms-articles__categoryMenu__item:hover {
+  background-color: $primary;
+}
+
+a.spd-cms-articles__categoryMenu__item {
+  background: $secondary;
+}
+
+.nemo-ui-checkbox__input:checked + .spd-flights-form__routeOptions__multiDate__caption:before {
+  background-image: url("img/sprite.svg") !important;
+}
+
+.nemo-auth__links {
+  margin-left: 100px;
+}
+
+.nemo-common-postFilters-text_closed {
+  background: rgba($secondary, 0.85) !important;
+}
+
+.spd-flights-results__group__segment__selector__dropdown__option__arrival_nextday,
+.spd-flights-results__group__segment__selector__dropdown__option__availSeats_warning {
+  color: $primary;
+}
+
+.nemo-ui-select__dropdown__item:hover,
+.nemo-ui-select__dropdown__item_hilighted,
+.new-ui-select__dropdown__item:hover,
+.new-ui-select__dropdown__item_hilighted,
+.ui-autocomplete .ui-menu-item:hover,
+.ui-autocomplete .ui-menu-item_hilighted,
+.ui-autocomplete__item:hover,
+.ui-autocomplete__item_hilighted {
+  background: rgba($secondary, 0.12);
+}
+
+.spd-flights-results__group__buttons__profit {
+  background: rgba($secondary, 0.85);
+}
+
+.js-spd-header-dropmenu_support .nemo-ui-select__toggle:after {
+  display: none;
+}
+
+.js-spd-header-dropmenu_support .spd-header__supportPhones__toggle {
+  padding-right: 0;
+}
+
+.nemo-ui-slider .ui-slider-handle, .new-ui-slider .ui-slider-handle {
+  border-color: $secondary;
+}
+
+.nemo-ui-slider .ui-slider-range, .new-ui-slider .ui-slider-range {
+  background: $secondary;
+}
+
+.nemo-ui-slider .ui-slider-handle.ui-state-active, .nemo-ui-slider .ui-slider-handle:hover, .new-ui-slider .ui-slider-handle.ui-state-active, .new-ui-slider .ui-slider-handle:hover {
+  background: $secondary;
+}
+
+.nemo-flights-results__summary__route__segment__geo_departure:after {
+  background: $secondary;
+}
+
+money + .nemo-ui-slider__info__block_divider {
+  margin-left: 13px;
+}
+
+.spd-flights-form__datepickerOneWay {
+  background: lighten($secondary, 65%);
+  color: $secondary;
+}
+
+.spd-flights-results__adaptiveFiltersSwitch {
+  color: $secondary;
+}
